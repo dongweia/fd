@@ -1,0 +1,265 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index1/index",
+            "style" : {
+                "navigationStyle" : "custom",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/user/login",
+            "style" : {
+                "navigationStyle" : "custom",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/user/register",
+            "style" : {
+                "navigationStyle" : "custom",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/show/home",
+            "style" : {
+                "mp-alipay": {
+                	/* 支付宝小程序特有相关 */
+                	"transparentTitle": "always",
+                	"allowsBounceVertical": "NO"
+                },
+                "navigationBarBackgroundColor": "#0081ff",
+                "navigationBarTitleText": "首页",
+                "navigationStyle": "custom",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path" : "pages/show/message",
+            "style" : {
+				"navigationBarTitleText": "消息",	
+				"enablePullDownRefresh":true
+            }
+        },
+        {
+            "path" : "pages/admin/mess",
+            "style" : {
+				"navigationBarTitleText": "消息",	
+				"enablePullDownRefresh":true
+            }
+        },
+		{
+            "path" : "pages/user/userspace",
+            "style" : {
+               "navigationBarTitleText": "我的信息"	
+            }
+        },
+		{
+		    "path" : "pages/user/watch",
+		    "style" : {
+		       "navigationBarTitleText": "我的关注",
+			   "enablePullDownRefresh":true
+		    }
+		},
+
+		{
+		    "path" : "pages/user/chat",
+		    "style" : {
+				 "navigationBarTitleText": "聊天"				 
+		    }
+		},		
+		{
+		    "path" : "components/ksp-image-cutter/ksp-image-cutter"
+		},
+		{
+		    "path" : "pages/user/choosephoto",
+			"style" : {
+				"navigationBarTitleText": "头像修改"
+			}
+		},
+		{
+		    "path" : "pages/commodity/add",
+			"style" : {
+				"navigationBarTitleText": "上传"
+			}
+		},
+		{
+		    "path" : "pages/commodity/update",
+			"style" : {
+				"navigationBarTitleText": "修改"
+			}
+		},
+		{
+		    "path" : "pages/commodity/mypublished",
+			"style" : {
+				"mp-alipay": {
+					/* 支付宝小程序特有相关 */
+					"transparentTitle": "always",
+					"allowsBounceVertical": "NO"
+				},
+				"navigationBarBackgroundColor": "white",
+				"navigationBarTitleText": "已发布"
+				// "navigationStyle": "custom",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+		    "path" : "pages/commodity/collect",
+			"style" : {
+				"mp-alipay": {
+					/* 支付宝小程序特有相关 */
+					"transparentTitle": "always",
+					"allowsBounceVertical": "NO"
+				},
+				"navigationBarBackgroundColor": "white",
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+		    "path" : "pages/commodity/watchhistory",
+			"style" : {
+				"mp-alipay": {
+					/* 支付宝小程序特有相关 */
+					"transparentTitle": "always",
+					"allowsBounceVertical": "NO"
+				},
+				"navigationBarBackgroundColor": "white",
+				"navigationBarTitleText": "我的足迹"
+			}
+		},
+		{
+			 "path" : "pages/user/choose",
+			 "style" : {
+			 	"navigationBarTitleText": "头像修改"
+			 }
+		},
+		{
+		    "path" : "pages/show/me",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": ""
+		    }
+		},
+		{
+		    "path" : "pages/admin/space",
+		    "style" : {
+				"navigationStyle" : "custom",
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": ""
+		    }
+		},
+        {
+            "path" : "components/config/config",
+            "style" : {}
+        },
+        {
+            "path" : "pages/show/test",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/order/add",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "下单"
+		    }
+		},
+		{
+		    "path" : "pages/order/user_dealing",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "运送中的订单",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/order/businesser_dealing",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "处理中的订单",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/order/user_finish",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "已完成的订单",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/order/businesser_finish",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "已完成的订单",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/order/businesserlogisticsTrack",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "物流信息",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/order/userlogisticsTrack",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "物流信息",
+				"navigationBarBackgroundColor": "white"
+		    }
+		},
+		{
+		    "path" : "pages/admin/opinion",
+		    "style" : {
+		    	"enablePullDownRefresh":true,
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "white"
+		    }
+		}
+        
+        
+    ],
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#3cc51f",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/show/home",
+                "iconPath" : "static/tabbar/home.png",
+                "selectedIconPath" : "static/tabbar/homeed.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/show/message",
+                "iconPath" : "static/tabbar/class.png",
+                "selectedIconPath" : "static/tabbar/classed.png",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/show/me",
+                "iconPath" : "static/tabbar/my.png",
+                "selectedIconPath" : "static/tabbar/myed.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    }
+}

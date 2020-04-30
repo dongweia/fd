@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTitleText": "已发布",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "修改",
+  "usingComponents": {
+    "kps-image-cutter": "/components/ksp-image-cutter/ksp-image-cutter",
+    "select-address": "/components/yixuan-selectAddress/yixuan-selectAddress"
+  }
+}

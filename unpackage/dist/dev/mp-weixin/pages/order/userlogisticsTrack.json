@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "物流信息",
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {
+    "track-node": "/components/trackNode",
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper"
+  }
+}

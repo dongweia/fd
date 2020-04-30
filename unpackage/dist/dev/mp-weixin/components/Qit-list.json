@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper"
+  },
+  "component": true
+}

@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index1/index",
+    "pages/user/login",
+    "pages/user/register",
+    "pages/show/home",
+    "pages/show/message",
+    "pages/user/userspace",
+    "pages/user/watch",
+    "pages/user/chat",
+    "components/ksp-image-cutter/ksp-image-cutter",
+    "pages/user/choosephoto",
+    "pages/commodity/add",
+    "pages/commodity/update",
+    "pages/commodity/mypublished",
+    "pages/commodity/collect",
+    "pages/commodity/watchhistory",
+    "pages/user/choose",
+    "pages/show/me",
+    "components/config/config",
+    "pages/show/test",
+    "pages/order/add",
+    "pages/order/user_dealing",
+    "pages/order/businesser_dealing",
+    "pages/order/user_finish",
+    "pages/order/businesser_finish",
+    "pages/order/businesserlogisticsTrack",
+    "pages/order/userlogisticsTrack"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/show/home",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/show/message",
+        "iconPath": "static/tabbar/class.png",
+        "selectedIconPath": "static/tabbar/classed.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/show/me",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

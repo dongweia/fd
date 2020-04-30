@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "已完成的订单",
+  "navigationBarBackgroundColor": "white",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "下单",
+  "usingComponents": {
+    "select-address": "/components/yixuan-selectAddress/yixuan-selectAddress"
+  }
+}
